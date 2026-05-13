@@ -12,7 +12,7 @@ Application permettant de gérer une liste de tâches à effectuer.
 - ✔️ Validation des tâches
 ---
 ## 👤 ContactApp — Gestionnaire de contacts
-Application de gestion de contacts réalisée sans backend.
+Application de gestion de contacts réalisée avec backend.
 ### Fonctionnalités
 - ➕ Ajout de contacts
 - 📋 Affichage des contacts
@@ -35,10 +35,9 @@ Mettre en pratique :
 ## Backend
 - Node.js
 - Express.js
-# 📂 Structure du projet
-
+# 📂 Structure des projets
 ```bash
-ToDo-App/
+Projet/
 │
 ├── backend/
 │   ├── node_modules/
