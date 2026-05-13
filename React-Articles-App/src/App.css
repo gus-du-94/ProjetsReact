@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0f172a;
+  color: white;
+}
+
+.app {
+  max-width: 600px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+/* Formulaire */
+.todo-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.todo-form input {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1e293b;
+  color: white;
+}
+
+.todo-form input::placeholder {
+  color: #94a3b8;
+}
+
+.todo-form button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #22c55e;
+  color: white;
+  cursor: pointer;
+}
+
+.todo-form button:hover {
+  background-color: #16a34a;
+}
+
+/* Liste */
+.todo-list {
+  list-style: none;
+}
+
+/* Item */
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e5e7eb;
+  color: black;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.todo-item span {
+  cursor: pointer;
+}
+
+/* Tâche complétée */
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+/* Boutons */
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-complete {
+  background-color: #22c55e;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-complete:hover {
+  background-color: #16a34a;
+}
+
+.btn-delete {
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-delete:hover {
+  background-color: #dc2626;
+}
